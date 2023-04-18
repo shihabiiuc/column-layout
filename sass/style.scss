@@ -38,6 +38,23 @@ h2 {
     text-align: left;
   }
 }
+footer {
+  background-color: #193549;
+  padding: 30px 15px;
+  p {
+    margin: 0;
+    color: rgba($color: #FFFFFF, $alpha: 0.85);
+    font-style: italic;
+    a {
+      color: #FFC600;
+      text-decoration: none;
+      transition: color 0.7s ease-out;
+      &:hover {
+        color: #FF443F; 
+      }
+    }
+  }
+}
 
 // using flexbox
 .three-col-using-flexbox {
@@ -102,6 +119,7 @@ h2 {
 }
 
 // using float
+
 .three-col-using-float {
   max-width: 1200px;
   margin: 0 auto;
