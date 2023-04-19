@@ -29,6 +29,14 @@ section {
   background-color: #1F4662;
   color: rgba($color: #FFFFFF, $alpha: 0.7);
   padding: 30px 15px;
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    a {
+      color: #FFC600;
+      text-decoration: none;
+    }
+  }
 }
 h2 {
   text-align: center;

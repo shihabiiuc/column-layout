@@ -38,6 +38,16 @@ section {
   padding: 30px 15px;
 }
 
+.banner .container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.banner .container a {
+  color: #FFC600;
+  text-decoration: none;
+}
+
 h2 {
   text-align: center;
   max-width: 1200px;
